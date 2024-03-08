@@ -1,10 +1,4 @@
-type skill = {
-  category: string;
-  skills: {
-    name: string;
-    skillPercentage: number;
-  }[];
-};
+import { skill } from "./types";
 
 export const skills: skill[] = [
   {
